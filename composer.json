@@ -1,5 +1,5 @@
 {
-    "name": "akash/framework",
+    "name": "zestphp-react/framework",
     "description": "ZestPHP: High-performance PHP MVC Framework with React",
     "type": "project",
     "require": {

@@ -20,17 +20,12 @@ class ComposerStaticInit9578ca1ef8aa828898eb2e802524b6bf
         '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
-        'af739e642949f90e09cbe77f8d3026b1' => __DIR__ . '/../..' . '/core/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'v' => 
         array (
             'voku\\' => 5,
-        ),
-        'T' => 
-        array (
-            'Tests\\' => 6,
         ),
         'S' => 
         array (
@@ -97,7 +92,6 @@ class ComposerStaticInit9578ca1ef8aa828898eb2e802524b6bf
         ),
         'C' => 
         array (
-            'Core\\' => 5,
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -115,10 +109,6 @@ class ComposerStaticInit9578ca1ef8aa828898eb2e802524b6bf
         'voku\\' => 
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
-        ),
-        'Tests\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Symfony\\Polyfill\\Php83\\' => 
         array (
@@ -267,10 +257,6 @@ class ComposerStaticInit9578ca1ef8aa828898eb2e802524b6bf
         array (
             0 => __DIR__ . '/..' . '/doctrine/lexer/src',
         ),
-        'Core\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/core',
-        ),
         'Carbon\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
@@ -290,6 +276,8 @@ class ComposerStaticInit9578ca1ef8aa828898eb2e802524b6bf
     );
 
     public static $classMap = array (
+        'App\\Http\\Controllers\\UserController' => __DIR__ . '/../..' . '/app/Http/Controllers/UserController.php',
+        'App\\Services\\Mail\\MailService' => __DIR__ . '/../..' . '/app/Services/Mail/MailService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Brick\\Math\\BigDecimal' => __DIR__ . '/..' . '/brick/math/src/BigDecimal.php',
         'Brick\\Math\\BigInteger' => __DIR__ . '/..' . '/brick/math/src/BigInteger.php',

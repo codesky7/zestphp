@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'akash/framework',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ad7e868272b0b8478866edaf4f4327084e542ae7',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'akash/framework' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ad7e868272b0b8478866edaf4f4327084e542ae7',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

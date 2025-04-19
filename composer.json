@@ -17,6 +17,14 @@
         "illuminate/database": "^10.0",
         "symfony/console": "^6.0"
     },
+    "scripts": {
+        "create-project": [
+            "php bin/zest create-project"
+        ]
+    },
+    "bin": [
+        "bin/zest"
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
